@@ -1,0 +1,30 @@
+div#minr_overlay-container {
+  z-index: 65536;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 210px;
+  width: 180px;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0F0F0;
+  border: 3px solid #888888;
+  border-radius: 4px;
+  transition: all 500ms;
+  flex-wrap: wrap;
+
+  &.hidden {
+    opacity: 0;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  span#name {
+    color: red;
+    font-weight: 600;
+  }
+}

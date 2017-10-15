@@ -1,0 +1,9 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base/legacy",
+  "rules": {
+    "new-cap": 0,
+    "object-curly-spacing": [1, "never"],
+  },
+  plugins: ["json"],
+}
