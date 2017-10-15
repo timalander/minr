@@ -12,7 +12,7 @@ const onDOMContentLoadedListener = (details) => {
 chrome.extension.onMessage.addListener((request, sender) => {
   if ((request.data).match(/coinhive\.min\.js/g)) {
     chrome.tabs.executeScript(sender.tab.id, {
-      code: createOverlay('Coin Hive')
+      code: createOverlay({minerName: 'Coin Hive'})
     });
   }
 });
