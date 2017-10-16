@@ -4,9 +4,9 @@ Minr is a Chrome extension that detects cryptocurrency Javascript miners and ale
   - Written using Webpack + ES6 + Babel
 
 # Requirements
-- node `6.11.0`
+- node `6.11.1`
   - Download and install `nvm`: https://github.com/creationix/nvm
-  - `nvm install 6.11.0`
+  - `nvm install 6.11.1`
 - yarn `1.1.0`
   - `npm install -g yarn@1.1.0`
 
